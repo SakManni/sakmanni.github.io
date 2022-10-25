@@ -1,0 +1,464 @@
+html, body {
+ min-height: 100vh;
+ width:100%;
+ 
+ padding: 0;
+ margin: auto;
+ overflow-x: hidden;
+ background-color: #FFF;
+  font-family: EB Garamond, Quicksand;
+  font-size:1.0em;
+  /*<link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">*/
+}
+
+
+header {
+	
+	max-width: 100%;
+	margin:auto;
+	
+}
+
+
+.parallax1 {
+	background: url('./table.jpg') no-repeat center;
+	background-size: cover;
+	max-width: 100%;
+	margin: auto;
+	height: 40vh;
+	background-attachment:fixed;
+	display:block;
+	padding:0;
+	z-index:-1;
+
+}
+.parallax2 {
+	background: url('./table.jpg') no-repeat center;
+	background-size: cover;
+	width: 100%;
+	margin: auto;
+	height: 40vh;
+	background-attachment:fixed;
+	display:block;
+	padding:0;
+	z-index:-1;
+
+}
+.parallax3 {
+	background: url('./table.jpg') no-repeat center;
+	background-size: cover;
+	width: 100%;
+	margin: auto;
+	height: 40vh;
+	background-attachment:fixed;
+	display:block;
+	padding:0;
+	z-index:-1;
+}
+
+.parallax2 H2 {
+		
+    display:flex;
+	justify-content:center;
+	text-align:center;
+	margin:0px auto;
+	color:white;
+	position:relative;
+	font-size: 4.5em;
+	
+	
+	
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.parallax3 H2 {
+		
+    display:flex;
+	justify-content:center;
+	text-align:center;
+	margin:0px auto;
+	color:white;
+	position:relative;
+	font-size: 4.5em;
+	
+	height:auto;
+	
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+/*#kuvateksti{
+	display:flex;
+	justify-content:center;
+	text-align:center;
+	margin:0px auto;
+	color:white;
+	position:relative;
+	font-size: 4.5em;
+	padding-top:35vh;
+	height:auto;
+}
+
+*/
+
+
+nav {
+	position:fixed;
+	width: 100%;
+	z-index:1;
+	
+}
+
+nav ul {
+	list-style: none;
+	background: rgba (0,0,0,0);
+	overflow:hidden;
+	color: #fff;
+	padding: 0;
+	text-align: center;
+	margin: 0;
+	transition: 1s;
+
+
+}
+
+nav.black ul {
+	background: #000;
+
+}
+
+nav ul li {
+	display: inline-block;
+	padding:20px;
+	text-decoration: none;
+	font-size:1.2em;
+	
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #fff;
+	
+
+}
+
+.logo {
+	
+	position: fixed;
+	float: left;
+	margin: 10px  36px;
+	font-weight: bold;
+	font-size: 2em;
+	color: #fff;
+	text-transform: uppercase;
+
+}
+
+.footer {
+	max-width: 100%;
+	display: block;
+	background-color:#000;
+	min-height: 75px;
+	
+}
+
+.menu-icon {
+	width: 100%;
+	background: #000;
+	text-align:right;
+	box-sizing: border-box;
+	padding: 15px 24px;
+	cursor:pointer;
+	color: #fff;
+	display: none;
+	}
+
+
+
+
+/*#otsakekuva {
+	display:flex;
+	max-width:100%;
+	background-color:#F2F2F2;
+	margin:0 auto;
+	padding:0;
+
+	height:auto;
+
+
+}
+
+*/
+
+.otsikko {
+	display:flex;
+	justify-content:center;
+	font-size: 1.2em;
+	max-width:100%;
+	margin:auto;
+	background-color:#F2F2F2;
+	margin-top:0px;
+	line-height:0.92em;
+
+
+}
+
+
+
+.container {
+	display:block;
+	justify-content:center;
+	text-align:center;
+	flex-wrap:wrap;
+	max-width:100%;
+	background-color:white;
+	margin:0 auto;
+	padding:0;
+	z-index:-1;
+
+}
+
+
+#kuutio1{
+	display:block;
+	justify-content:center;
+	padding: 0.1px;
+	margin: auto ;
+	max-width:80%;
+	padding-top: 20px;
+	font-size:1em;
+	line-height: 1.8em;
+	
+}
+
+
+#kuutio2{
+	display:block;
+	padding-bottom:30px;
+	padding-top: 20px;
+	margin: 0 auto;
+	max-width:80%;
+	text-align:center;
+	font-size:1em;
+	display:block;
+	line-height: 1.8em;
+}
+
+
+#master {
+	padding: 10px 15px 0px 15px;
+	margin-top:0px;
+	font-weight: bold;
+	font-size: 1.3em;
+	text-align: center;
+	line-height: 1.2em;
+}
+
+#CTA{
+	display:grid;
+	margin:auto;
+	text-align:center;
+	padding: -30;
+	margin-top: 20px;
+	width:100%;
+	
+
+}
+
+.button {
+	
+	text-align:center;
+	margin: 0 auto;
+	border-radius: 6px;
+	border: 1px solid black;
+	background:  #0a0a0f;
+	color: #ccc;
+	   
+	text-transform: uppercase;
+	line-height: 75px;
+	width: 240px;
+	height: 80px;
+}
+
+
+#Biokuutio {
+	padding:5px 0px 5px 0px;
+	text-align: justify;
+  text-justify: inter-word;
+  line-height: 1.8em;
+	margin: 0 auto;
+	max-width:70%;
+	display:block;
+	flex-wrap:wrap;
+	font-size:0.9em;
+	
+}
+
+
+
+#Biokuutio2 {
+	padding:20px 0px 0px 0px;
+	text-align:center;
+	line-height: 1.8em;
+	margin: 0 auto;
+	max-width:70%;
+	display:block;
+	flex-wrap:wrap;
+	font-size:0.9em;
+	border-top-width: 1px;
+	border-top-style: solid;
+	margin-top: 20px;
+}
+
+.resize {
+	max-width:100%;
+	height: auto;
+	padding-bottom: 5px;
+
+}
+
+.wrapper {
+
+	padding-bottom: 5px;
+	position: relative;
+	border-right-width: 1px;
+	border-right-style: solid;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+
+.wrapper2 {
+	
+	padding-bottom: 5px;
+	position: relative;
+	text-align: justify;
+	text-justify: inter-word;
+	
+}
+
+#tekstikuutio{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 10px;
+	font-size:1em;
+	line-height: 1.3em;
+	max-width: 100%;
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+
+.resizetext {
+	font-size: 1em;
+	width:auto;
+	height: auto;
+	padding: 20 19 0 20px;
+	text-align: justified;
+	
+	
+}
+
+
+@media only screen and (max-width: 900px) {
+	
+	#tekstikuutio {
+		
+		display:block;
+		
+	}
+	
+	
+	.wrapper {
+		border-right-width: 0px;
+		border-bottom-width: 1px;
+		border-bottom-style: solid;
+		padding-bottom: 20px;
+		padding-top: 15px;
+	}
+	
+	.wrapper2 {
+		padding-top: 15px;
+	}
+	
+	.logo {
+		position: fixed;
+		top: 0;
+		margin-top: 16px;
+		color: #fff;
+
+	}
+
+	nav ul {
+		max-height: 0px;
+		background:#000;
+	}
+	
+	#otsakekuva {
+		padding-top: 3.5em;
+	}
+
+	.showing {
+	max-height: 20em;
+	}
+
+	nav ul li {
+	
+	box-sizing: border-box;
+	width: 100%;
+	padding: 24px 0;
+	text-align: center;
+
+	}
+	
+.menu-icon {
+	display: block;
+	}
+	
+}
+
+#ellipsi {
+	display:block;
+	margin:auto;
+	
+
+	}
+
+/* @media (max-width: 900px) {
+	.logo {
+		position: fixed;
+		top: 0;
+		margin-top: 16px;
+		color: #fff;
+
+		}
+
+	nav ul {
+		max-height: 0px;
+		background:#000;
+	}
+	#otsakekuva {
+		padding-top: 3.5em;
+	}
+
+
+
+.showing {
+	max-height: 20em;
+}
+
+nav ul li {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 24px 0;
+	text-align: center;
+
+	}
+	
+.menu-icon {
+	display: block;
+}
+}*/
+
